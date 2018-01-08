@@ -18,7 +18,7 @@ function renderHighlightedRecipes(recipesArray) {
       renderRecipe(recipesArray[i]);
     }; 
   };
-}
+};
 
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
