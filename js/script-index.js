@@ -1,6 +1,6 @@
 $(document).ready( function(){
   $(".hidden").toggle(); //flecha atras aparece y desaparece.
-
+   $(".news").text("NUEVAS RECETAS");
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
